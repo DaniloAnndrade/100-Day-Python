@@ -17,19 +17,56 @@ print('-='*20)
 time.sleep(2)
 porta_ep1 = int(input("Digite o numero da porta:"))
 
+time.sleep(2)
 #certo opção 2
 if porta_ep1 == 1:
-    print("Errou, perdeu o premio")
+    print("\nA Resposta esta!!!")
+    time.sleep(2)
+    print("Errada, perdeu o premio")
     print('Game over')
 elif porta_ep1 == 2:
-    print(f"Acertou, parabens{nome}")
+    print("\nA Resposta esta!!!")
+    time.sleep(2)
+    print(f"certa, parabens {nome}!!")
     print('Proxima Etapa') 
+    time.sleep(2)
 
-#Se acerta continua para mais 3 opções
+#Se acerta continua para mais 3 opções.
+    
+    print(f'\nAgora, {nome}, Escolha a cor Certa e \nganhe o Grande premio')
+    print('\nEscreva o nome da Cor:\n Azul \n Verde \n Amarelo\n ')
+    print('-='*20)
+
+    porta_ep2 = str(input("Digite o nome da cor escolhida:"))
+
 #certo opção azul. 
-#Parabens, você ganhou um Balde de pipoca
+    
+    if porta_ep2 == "azul":
+        print("\nA Resposta esta!!!")
+        time.sleep(2)
+        print(f"certa, Parabens {nome}!!")
+#Parabens, você ganhou um Balde de pipoca.
+        print("Você acaba de ganhar, um!!!")
+        time.sleep(2)
+        print("POTE DE PIPOCA, !!!!!!!")
+        time.sleep(1)
+        print("Aproveite")      
+
+    elif porta_ep2 == "verde":
+        print("\nA Resposta esta!!!")
+        time.sleep(2)
+        print("Errada, perdeu o premio")
+        print('Game over') 
+    else:
+        print("\nA Resposta esta!!!")
+        time.sleep(2)
+        print("Errada, perdeu o premio")
+        print('Game over') 
+
 
 else:
-    print("Errou, perdeu o premio")
+    print("\nA Resposta esta!!!")
+    time.sleep(2)
+    print("Errada, perdeu o premio")
     print('Game over') 
 
