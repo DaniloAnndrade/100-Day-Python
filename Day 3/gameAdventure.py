@@ -63,7 +63,6 @@ elif porta_ep1 == 2:
         print("Errada, perdeu o premio")
         print('Game over') 
 
-
 else:
     print("\nA Resposta esta!!!")
     time.sleep(2)
