@@ -1,7 +1,7 @@
 import random
 
 #Definer as variaveis
-letra = random.choice(['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'])
+
 numero = random.choice(['0','1','2','3','4','5','6','7','8','9'])
 carac = random.choice(['!','@','#','$','%','&','*','_','-'])
 
@@ -16,8 +16,16 @@ con_n = 0
 con_c = 0
 #o loopi
 
-for senha in dig_letra:
-    con_l += 1
+for senha_l in range(dig_letra):
+    #Definer as variaveis
+    letra = random.choice(['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w',
+        'x','y','z'])
+    numero = random.choice(['0','1','2','3','4','5','6','7','8','9'])
+    carac = random.choice(['!','@','#','$','%','&','*','_','-'])         
+
     print(letra)
+
+    for senha_n
+    con_l += 1
     if con_l == dig_letra:
         break
