@@ -1,0 +1,26 @@
+def direita():
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    
+    
+def pos():
+    turn_left()
+    while wall_on_right():
+        move()
+    direita()
+    while front_is_clear():
+        move()
+    turn_left()
+    
+    
+    
+while not at_goal():
+    if front_is_clear():
+        move()
+    if wall_in_front():
+        pos()
