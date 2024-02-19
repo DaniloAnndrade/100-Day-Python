@@ -4,10 +4,18 @@ lista = ['bolo','chocolate','biscoito']
 
 es = random.choice(lista)
 
-pessoa = input("Digite uma letra:").lower()
+display = []
+for cont in range(len(es)):
+    display += '_'
+print(display)
 
-for var in es:
+pessoa = input("\nDigite uma letra:").lower()
+
+for posi in range(len(es)):
+    var = es[posi]
     if var == pessoa:
-        print("Acerteu!")
-    else:
-        print("Errou!")
+        display[posi] =  var
+    
+print(display)
+
+
