@@ -1,0 +1,4 @@
+lis = {"pet":"nome",
+       }
+
+prin
