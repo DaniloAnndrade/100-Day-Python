@@ -1,4 +1,0 @@
-lis = {"pet":"nome",
-       }
-
-prin
