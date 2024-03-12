@@ -22,5 +22,22 @@ print(f"\nO Maior valor foi {maior} na posições " ,end="")
 for c,d in enumerate(valor):
     if d == maior:
         print(f"{c}....", end="")
-        
+
 # exercício 78
+        
+print("\n\nExercicio 79")
+  
+lis2 = []
+wh = False
+while not (wh):
+    e = int(input("Digite um numero:"))
+    if e not in lis2:
+        lis2.append(e)
+        print("Valor, adicionado!!")
+    else:
+        print("Valor, ja Existente!!")
+    esco = input("Gostaria de continuar?[S/N]").upper()
+    if esco == 'N':
+        wh = True
+lis2.sort()
+print(lis2)
