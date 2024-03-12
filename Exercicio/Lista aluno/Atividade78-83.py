@@ -23,7 +23,7 @@ for c,d in enumerate(valor):
     if d == maior:
         print(f"{c}....", end="")
 
-# exercício 78
+# exercício 79
         
 print("\n\nExercicio 79")
   
