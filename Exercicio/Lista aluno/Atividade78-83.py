@@ -104,4 +104,21 @@ print(f"\nA lista teve esses numeros{lista5}")
 print(f"Foram {k} de numeros pares.")
 print(f"Foram {l} de numeros impares.")
 
-    
+# exercício 83 
+
+o = input("Digite sua expressão:")
+lista6 = []
+for sim in o:
+    if sim == '(':
+        lista6.append('(')
+    elif sim == ')':
+        if len(lista6) > 0:
+            lista6.pop()
+        else:
+            lista6.append(')')
+            break
+
+if len(lista6) == 0:
+    print("A Expressão esta fechada ")
+else:
+    print("A expressão n esta fechada")
