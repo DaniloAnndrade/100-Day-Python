@@ -62,3 +62,46 @@ for g in range(0,5):
 print(lista3)
 
 # exercício 81
+
+lista4 = []
+wh2 = False
+
+while not wh2:
+    i = int(input("Digite um numero:"))
+    lista4.append(i)
+    j = input("Deseja continuar:[S/N]").upper()
+    if j == 'N':
+        wh2 = True
+
+if 5 in lista4:
+    print("Essa lista, foi digitado o numero 5!")
+else:
+    print("Esta lista, Não teve o digito 5!")
+
+lista4.sort(reverse=True)
+print(lista4) 
+
+
+# exercício 82
+
+lista5 = []
+k = lista5[:]
+l = lista5[:]
+wh3 = False
+
+while not wh3:
+    m = int(input("Digite um numero:"))
+    lista5.append(m)
+    if m % 2 == 0:
+        k.append(m)
+    if m % 2 == 1:
+        l.append(m)
+    n = input("Gostaria de continuar:[S/N]").upper()
+    if n == 'N':
+        wh3 = True
+
+print(f"\nA lista teve esses numeros{lista5}")
+print(f"Foram {k} de numeros pares.")
+print(f"Foram {l} de numeros impares.")
+
+    
