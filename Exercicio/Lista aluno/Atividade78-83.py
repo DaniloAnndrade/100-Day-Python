@@ -41,3 +41,24 @@ while not (wh):
         wh = True
 lis2.sort()
 print(lis2)
+
+# exercício 80
+
+lista3 = []
+
+
+for g in range(0,5):
+    h = int(input(f"Digite o {g+1}° numero:"))
+    if g == 0 or  h > lista3[-1]:
+        lista3.append(h)
+    else:
+        pos = 0
+        while pos < len(lista3):
+            if h <= lista3[pos]:
+                lista3.insert(pos,h)
+                break
+            pos += 1
+
+print(lista3)
+
+# exercício 81
