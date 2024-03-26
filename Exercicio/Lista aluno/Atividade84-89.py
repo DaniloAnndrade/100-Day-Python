@@ -57,3 +57,16 @@ print(f"Os numeros Pares foram {lista[0]}.")
 print(f"Os numeros impares foram{lista[1]}.")
 
 # exercício 86
+
+lista2 = [[0,0,0],[0,0,0],[0,0,0]]
+
+for a in range(0,3):
+    for b in range(0,3):
+        num = int(input(f"\n\nDigite um numero[{a}][{b}]:"))
+        lista2[a][b] = num
+for c in range(0,3):
+    for d in range(0,3):
+        print(f"[{lista2[c][d]:^5}]", end= "")
+    print()
+
+
