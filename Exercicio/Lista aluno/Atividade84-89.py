@@ -33,3 +33,27 @@ for c in dado:
     if c[1] == totamenor:
         print(f"de {c[0]}..", end="")
 
+# exercício 85
+        
+lista = [[],[]]
+
+wh2 = False
+
+while not wh2:
+    pos = int(input("\n\nDigite um numero:"))
+    if pos % 2 == 0:
+        lista[0].append(pos)
+    elif pos % 2 == 1:
+        lista[1].append(pos)
+    cont = str(input("Gostaria de continuar:[S/N]")).upper()
+    if cont == 'N':
+        wh2 = True
+    elif cont != 'S':
+        print("Digito errado!!!")
+    
+lista[0].sort()
+lista[1].sort()
+print(f"Os numeros Pares foram {lista[0]}.")
+print(f"Os numeros impares foram{lista[1]}.")
+
+# exercício 86
