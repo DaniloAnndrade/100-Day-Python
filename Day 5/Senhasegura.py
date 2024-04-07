@@ -16,7 +16,7 @@ con_n = 0
 con_c = 0
 #o loopi
 
-for senha_l in range(dig_letra,dig_num,dig_car):
+for senha_l in range(dig_letra):
     #Definer as variaveis
     letra = random.choice(['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w',
         'x','y','z'])
