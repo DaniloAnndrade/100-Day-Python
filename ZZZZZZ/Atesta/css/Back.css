@@ -113,7 +113,8 @@ main{
 }
 
 .contei {
-
+    align-items: center;
+    height: 100vh;
     padding-bottom: 10vh ;
     gap: 5px;
     margin-top: -3px;
@@ -132,9 +133,7 @@ main{
 
     width: 12vh;
 }
-.suporte {
-    padding: 0 10vh 5vh ;
-}
+
 
 .sobre h2 {
     margin: 5vh 0 0 0;
@@ -158,8 +157,39 @@ aside p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+    /* >>>>Projetos<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.contei-projetos h3{
+    text-align: center;
+    margin: 0 0 5vh 0;
+    font-size: 7vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor2);
+
+
+}
+
+.contei-projetos-tudo{
+    align-items: center;
+    height: 77vh;
+    justify-content: center;
+    display: flex;
+    gap:9vh
+}
+.contei-projetos-tudo-bloco img{
+        width: 40vh;
+    }
+
+
+
 /* >>>>Largura<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 @media(max-width: 1004px){
+    .contei-projetos-tudo{
+        align-items:baseline;
+        height: 50vh;
+    }
 
     .proff-corpo {
         width: 65%;
@@ -183,18 +213,41 @@ aside p {
     
     
 @media (max-width: 700px) {
-    
-    .contei .sobre{
-        padding: 11vh 0vh 5vh ;
-        width: 100%;
-    }    
-    .contei .icone img{
-        width: 25%;
+
+    .contei{
+        padding-bottom: 0;
+    }
+    .contei-projetos-tudo-bloco img{
+        height: auto;
     }
 
+    .contei-projetos-tudo{
 
+        height: 100vh;
+        display: block;
+    }
+    
+    .contei-projetos{
+        position: relative;
+        padding-top: 10vh;
+    }
+
+    .suporte {
+        margin-bottom: 86vh;
+        padding: 0px 7vh 20vh;}
+
+    .contei .sobre{
+        padding: 10vh 0 0 ;
+        width: 100%;
+    }    
+    .contei .icone {
+        margin: auto;
+        padding: 10vh 0 0 0;
+        display: flex;
+    }
+
+    
     .proff-corpo {
- 
         width: 100%;
         font-size: 5vh;
         
@@ -204,20 +257,10 @@ aside p {
         }
     
     .proff .proff-avatar {
-            display: none;
+        display: none;
         }
     
     }
     
     /* >>>>Corpo<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
     
-
-
-
-    /* >>>>Projetos<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
-
-    .suporte{    
-        margin: -3px 10vh 0vh;
-        border: 2px var(--cor1) dashed;
-    
-    }
