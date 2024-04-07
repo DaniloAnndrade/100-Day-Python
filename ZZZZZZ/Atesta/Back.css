@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+:root{
+
+    --cor1:#402424;
+    --cor2:#904A3C;
+    --cor3:#DA804A;
+
+}
+
+
+
+body{
+    margin: 0;}
+
+header{padding-left: 5vh;}
+
+.cabeça{height: 70vh;
+    padding: 20px;
+    background-color: #402424;}
+    
+.cabeça ul>li{
+    text-shadow: 0px 7px 17px black;
+    cursor: pointer;
+    border: 2px var(--cor2) solid;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor3) ;
+    font-size:3vh ;
+    padding: 0.25vh 2vh;
+}
+
+.cabeça ul>li:hover{
+    border: 2px white solid;
+    color: white;}
+
+.cabeça ul{ 
+    gap: 5vh;
+    list-style-type: none;
+    display: flex;
+}
+
+.corpo{
+    padding: 0vh 10vh;
+    justify-content: space-between;
+    display: flex;}
+
+.texto{padding: 10% 0;}
+
+#fron{color: white;}
+
+.corpo h1 {
+    margin: 0;
+    text-shadow: 5px 5px 20px black;
+    color: var(--cor3);
+    font-size: 9vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabeça img{
+    width: 90vh;
+}
+
+/*main*/
+
+.sobre{
+    width: 100vh;
+    padding: 5vh 5vh;}
+
+.icone img{width: 12vh;}
+
+.contei{
+    gap: 5px;
+    margin-top: -3px;
+    border: 2px var(--cor1)  dashed;;
+    display: flex;}
+
+.suporte{
+    border: 2px var(--cor1) solid;
+    padding: 0 5vh 5vh 5vh;}
+
+.sobre h2{ margin: 5vh 0 0 0;
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor1);}
+
+.sobre h3{ 
+    margin: 0 0 5vh 0;
+    font-size: 7vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor3);}
+
+aside p{
+    color: var(--cor1);
+    font-size:3vh ;
+    text-align: justify;
+    color: var(--cor1) ;
+    font-family: Arial, Helvetica, sans-serif;}
+
+.icone{display: block;
+    padding: 25vh 10vh;
+}
