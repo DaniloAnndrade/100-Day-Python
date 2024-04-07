@@ -106,17 +106,17 @@ main{
 }
 .sobre {
     width: 60%;
-    padding: 5vh 0vh 5vh 10vh;
+
 }
 .sobre aside p{
     margin-top: 5vh;
 }
 
 .contei {
+
     padding-bottom: 10vh ;
     gap: 5px;
     margin-top: -3px;
-    border: 2px var(--cor1) dashed;
     width: 100%;
     display: flex;
 }
@@ -171,7 +171,7 @@ aside p {
         display: block;
     } 
     .contei .sobre{
-        padding-right: 10vh ;
+
         width: 100%;
     }    
     .contei .icone{
@@ -185,16 +185,16 @@ aside p {
 @media (max-width: 700px) {
     
     .contei .sobre{
-        padding: 11vh 5vh 5vh ;
+        padding: 11vh 0vh 5vh ;
         width: 100%;
     }    
     .contei .icone img{
-        width: 20%;
+        width: 25%;
     }
 
 
     .proff-corpo {
-        text-align: center;
+ 
         width: 100%;
         font-size: 5vh;
         
@@ -211,3 +211,13 @@ aside p {
     
     /* >>>>Corpo<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
     
+
+
+
+    /* >>>>Projetos<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+    .suporte{    
+        margin: -3px 10vh 0vh;
+        border: 2px var(--cor1) dashed;
+    
+    }
