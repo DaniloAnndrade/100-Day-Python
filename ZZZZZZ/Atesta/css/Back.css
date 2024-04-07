@@ -8,16 +8,16 @@
 
 }
 
+html{padding: 0 10%;}
 
+body{}
 
-body{
-    margin: 0;}
+header{
+    position: relative;
+    background-color: #402424;
+    }
 
-header{padding-left: 5vh;}
-
-.cabeça{height: 70vh;
-    padding: 20px;
-    background-color: #402424;}
+.cabeça{}
     
 .cabeça ul>li{
     text-shadow: 0px 7px 17px black;
@@ -39,10 +39,9 @@ header{padding-left: 5vh;}
     display: flex;
 }
 
-.corpo{
+.proff-corpo{
     padding: 0vh 10vh;
-    justify-content: space-between;
-    display: flex;}
+    }
 
 .texto{padding: 10% 0;}
 
