@@ -17,22 +17,23 @@ html{
 
 header{
     box-shadow: 0px 5px 20px black;
-    margin: 5vh 20vh;
+    margin: 3vh 7vw 4vh;
     background: rgb(255, 255, 255);}
 .bloco{
-    width: 100%;
+
     display: flex;}
 
 .bloco-texto{
-    padding: 20vh 10vh 20vh 15vh;
+    padding: 14vh 2vw 10vh 7vw;
     width: 50%;}
 .bloco-texto-sal{
-    font-size: 5vh;}
+
+    font-size: 2.5vw;}
 
 
 .bloco-texto-nome{
     padding-bottom: 2vh;
-    font-size: 8vh;}
+    font-size: 4vw;}
 .bloco-texto-nome span{
     color: var(--cor1);}
 
@@ -41,7 +42,7 @@ header{
     border-radius: 10px;
     background-color: var(--cor1);
     padding: 1vh;
-    font-size: 17px;
+    font-size: 1.3vw;
     font-style:italic;
     display: inline-table;}
     
@@ -49,13 +50,13 @@ header{
     font-style: italic;
     padding-top: 2vh;
     padding-bottom: 3vh;
-    font-size: 19px;
+    font-size: 1.1vw;
     text-align: justify;}
 .bloco-texto-linkcontato{
     background-color: var(--cor1);
     color: white;
     text-decoration: none;
-    font-size: 3vh;
+    font-size: 1.3vw;
     border-radius: 15px;
     padding: 1vh 2vh;
     font-style:oblique;
@@ -71,3 +72,53 @@ header{
     height: 100%;
 }
 
+@media(max-width: 1100px){
+    header{
+        margin: 20vh 2vw;
+        }
+
+
+    .bloco-texto{
+        padding: 10vh 2vw 9vh 6vw;
+    }
+    .bloco-texto-descricao{
+    font-size: 1.8vw;}
+    
+}
+
+
+
+@media(max-width: 700px){
+    .bloco{
+        position: relative;
+        display: block;}
+    
+    .bloco-texto{
+        
+
+        width: 100%;
+        padding: 5vh 3vw 5vh 9vw;
+    }
+
+    .bloco-texto-descricao{
+    font-size: 3.2vw;}
+    
+    .bloco-texto-sal{
+        font-size: 5vw;}
+    
+    .bloco-texto-nome{
+    font-size: 9vw;}
+
+    .bloco-texto-prof{
+    font-size: 3vw;}
+
+    .bloco-texto-linkcontato{
+    font-size: 3vw;
+    }
+
+    .bloco-perfil{
+        position: absolute;
+
+        width: 100%;}
+        
+}
