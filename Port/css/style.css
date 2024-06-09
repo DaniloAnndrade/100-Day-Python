@@ -1,5 +1,6 @@
-html{
+body{
     background-image: url('/Port/css/back/12.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -89,6 +90,9 @@ header{
 
 
 @media(max-width: 700px){
+    header{
+        margin: 3vh 7vw 4vh;
+        }    
     .bloco{
         position: relative;
         display: block;}
